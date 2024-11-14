@@ -10,7 +10,7 @@ Nome do website: ---
 Integrantes do grupo: 
 <br><br>[<img loading="img1" src="https://avatars.githubusercontent.com/u/77413441?v=4" width=115><br><sub>Luís Felipe Spessoto</sub>](https://github.com/Luis-Spessoto) 
 
-Descrição do projeto: Website criado para em função de difundir conhecimento acerca de onde podem ser encontrados cursos que ofertem as metérias desejadas.
+Descrição do projeto: Website criado em função de difundir conhecimento acerca de onde podem ser encontrados cursos que ofertem as metérias desejadas.
 
 ODS: 4. Educação de qualidade 
 
