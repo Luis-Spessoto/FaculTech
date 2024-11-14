@@ -1,5 +1,6 @@
 <h1 align="center"> Projeto - Website 1.0 </h1>
 
+#colocar um imagem de background - pode ser um print do website ou da logo
 
 ![Projeto em Desenvolvimento!](https://img.shields.io/badge/Project-Loading...-blue)
 
