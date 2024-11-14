@@ -2,7 +2,9 @@
 
 #colocar um imagem de background - pode ser um print do website ou da logo
 
-![Projeto em Desenvolvimento!](https://img.shields.io/badge/Project-Loading...-blue)
+:space_invader:
+  ![Projeto em Desenvolvimento!](https://img.shields.io/badge/Project-Loading...-blue)
+:space_invader:
 
 Desenvolvimento do Projeto 1 - Programação Web Front-End 2024/02 AS62F N12
 
