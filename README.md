@@ -11,9 +11,13 @@ Desenvolvimento do Projeto 1 - Programação Web Front-End 2024/02 AS62F N12
 Nome do website: ---
 
 Integrantes do grupo: <br><br>
+<p><img loading="img1" src="https://avatars.githubusercontent.com/u/77413441?v=4" width=115><img loading="img2" src="https://avatars.githubusercontent.com/u/184716758?v=4" width=115><img loading="img1" src="https://avatars.githubusercontent.com/u/77413441?v=4" width=115></p>
+
+
+
 | [<img loading="img1" src="https://avatars.githubusercontent.com/u/77413441?v=4" width=115><br><sub>Luís Felipe Spessoto</sub>](https://github.com/Luis-Spessoto) |
  [<img loading="img2" src="https://avatars.githubusercontent.com/u/184716758?v=4" width=115><br><sub>Bruno Circhia Biazon</sub>](https://github.com/BrunoBiazon) |
-
+https://avatars.githubusercontent.com/u/120043427?v=4
 
 Descrição do projeto: Website criado em função de difundir conhecimento acerca de onde podem ser encontrados cursos que ofertem as metérias desejadas.
 
