@@ -18,7 +18,7 @@
 
 
 # Descrição do projeto: 
-Website criado em função de difundir conhecimento acerca de onde podem ser encontrados cursos que ofertem as metérias e assuntos desejados.
+Website criado em função de difundir conhecimento acerca de onde podem ser encontrados cursos superiores, em tecnologia, em algumas universidades da região e/ou pós graduações à distância
 
 # ODS: 
 4. Educação de qualidade 
