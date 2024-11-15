@@ -18,7 +18,7 @@
 
 
 # Descrição do projeto: 
-Website criado em função de difundir conhecimento acerca de onde podem ser encontrados cursos que ofertem as metérias desejadas.
+Website criado em função de difundir conhecimento acerca de onde podem ser encontrados cursos que ofertem as metérias e assuntos desejados.
 
 # ODS: 
 4. Educação de qualidade 
