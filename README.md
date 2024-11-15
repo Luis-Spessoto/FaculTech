@@ -1,14 +1,13 @@
 # <h1 align="center"> Projeto - Website 1.0 </h1>
 # <p align="center">Desenvolvimento do Projeto 1 - Programação Web Front-End 2024/02 AS62F N1</p>
 
-<div>
-  <img src="img.png/png" alt="background" width="600" height="400" align="center">
+<div align="center">
+  <img src="Projeto1FrontEnd/figs/img.png.jpg" alt="Exemplo de imagem">
 </div>
-<div>
-  :space_invader:
-    ![Projeto em Desenvolvimento!](https://img.shields.io/badge/Project-Loading...-blue)
-  :space_invader:
-</div>
+
+:space_invader:
+  ![Projeto em Desenvolvimento!](https://img.shields.io/badge/Project-Loading...-blue)
+:space_invader:
   
 # Nome do website: ---
 
