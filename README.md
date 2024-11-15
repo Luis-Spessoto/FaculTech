@@ -2,8 +2,7 @@
 # <p align="center">Desenvolvimento do Projeto 1 - Programação Web Front-End 2024/02 AS62F N1</p>
 
 <div>
-  <img src="" alt="background" width="600" height="400">
-  ![img png](https://github.com/user-attachments/assets/00fe1a5f-2ace-417f-ae67-253004c751e0)
+  <img src="img.png/png" alt="background" width="600" height="400" align="center">
 </div>
 <div>
   :space_invader:
