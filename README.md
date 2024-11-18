@@ -24,6 +24,6 @@ Website criado em função de difundir conhecimento acerca de onde podem ser enc
 4. Educação de qualidade 
 
 # Estrutura do projeto: 
-Os arquivos HTML estarão em um arquivo chamado "projetoUm.html", enquanto o código CSS estará no arquivo "style.css", e, por fim, as imagens, figuras e ícones utilizados estarão em uma pasta chamada "figs"
+Os arquivos HTML estarão em 
 
 
