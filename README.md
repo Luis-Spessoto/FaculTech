@@ -9,7 +9,7 @@
   ![Projeto em Desenvolvimento!](https://img.shields.io/badge/Project-Loading...-blue)
 :space_invader:
   
-# Nome do website: ---
+# Nome do website: FaculTech - Um guia para um ensino superior de qualidade 
 
 # Integrantes do grupo: <br>
 [<img loading="img1" src="https://avatars.githubusercontent.com/u/77413441?v=4" width=115><br><sub>Luís Felipe Spessoto</sub>](https://github.com/Luis-Spessoto) <br> <br>
