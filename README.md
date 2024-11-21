@@ -18,7 +18,7 @@
 
 
 # Descrição do projeto: 
-Website criado em função de difundir conhecimento acerca de onde podem ser encontrados cursos superiores, em tecnologia, em algumas universidades da região e/ou pós graduações à distância
+Website criado em função de difundir conhecimento acerca de onde podem ser encontrados cursos superiores, em tecnologia, em algumas universidades da região e/ou pós graduações à distância. Como proposta do website, criaremos um interface que se assemelha a mesma do Windows 98, trazendo um estilo retrô, mas com informações atualizadas. Desta maneira, estipularemos a funcionalidade de icones como botões que se funcionem como se o usuário estivesse navegando em seu computador.
 
 # ODS: 
 4. Educação de qualidade 
