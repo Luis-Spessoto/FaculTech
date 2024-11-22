@@ -12,10 +12,15 @@
 # Nome do website: FaculTech - Um guia para um ensino superior de qualidade 
 
 # Integrantes do grupo: <br>
-[<img loading="img1" src="https://avatars.githubusercontent.com/u/77413441?v=4" width=115><br><sub>Luís Felipe Spessoto</sub>](https://github.com/Luis-Spessoto) <br> <br>
-[<img loading="img2" src="https://avatars.githubusercontent.com/u/184716758?v=4" width=115><br><sub>Bruno Circhia Biazon</sub>](https://github.com/BrunoBiazon) <br> <br>
-[<img loading="img3" src="https://avatars.githubusercontent.com/u/120043427?v=4" width=115><br><sub>Nieltom Augusto</sub>](https://github.com/nieltom) <br> <br>
-
+<markdown-accessiblity-table data-catalyst=""><table tabindex="0">
+<thead>
+  <tr>
+    <th align="center"><a href="https://github.com/Luis-Spessoto"><img src="https://avatars.githubusercontent.com/u/77413441?v=4" alt="foto-Luis"width="110" style="max-width: 100%;"><br><sub>Luís Felipe Spessoto</sub></a></th>
+    <th align="center"><a href="https://github.com/BrunoBiazon"><img src="https://avatars.githubusercontent.com/u/184716758?v=4" alt="foto-Bruno" width="110"  style="max-width: 100%;"><br><sub>Bruno Circhia Biazon/sub></a></th>
+    <th align="center"><a href="https://github.com/nieltom"><img src="https://avatars.githubusercontent.com/u/120043427?v=4" alt="foto-Nieltom"width="110" alt="foto Danilo" style="max-width: 100%;"><br><sub>Nieltom Augusto</sub></a></th>
+    </tr>
+</thead>
+</table></markdown-accessiblity-table>
 
 # Descrição do projeto: 
 Website criado em função de difundir conhecimento acerca de onde podem ser encontrados cursos superiores, em tecnologia, em algumas universidades da região e/ou pós graduações à distância. Como proposta do website, criaremos uma interface que se assemelha a mesma do Windows 98, trazendo um estilo retrô, mas com informações atualizadas. Desta maneira, estipularemos a funcionalidade de icones como botões que se funcionem como se o usuário estivesse navegando em seu computador.
