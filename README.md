@@ -2,7 +2,7 @@
 # <p align="center">Desenvolvimento do Projeto 1 - Programação Web Front-End 2024/02 AS62F N1</p>
 
 <div align="center">
-  <img src="Projeto1FrontEnd/figs/img.png.jpg" alt="Exemplo de imagem">
+  <img src="FaculTech - FrontEnd/css/img/win98_icons/telaPc.png" alt="Imagem WebSite">
 </div>
 
 :space_invader:
