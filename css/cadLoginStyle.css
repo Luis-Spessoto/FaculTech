@@ -78,7 +78,7 @@ button {
 
 .btn2 {
     position: absolute; 
-    bottom: 25%;  
+    bottom: 24%;  
     background-color: rgb(192, 192, 192);
     color: rgb(0, 0, 0);
 }
@@ -98,7 +98,7 @@ button {
 }
 .btn3 {
     position: absolute; 
-    bottom: 17%;  
+    bottom: 15%;  
     background-color: rgb(192, 192, 192);
     color: rgb(0, 0, 0);
 }
@@ -127,7 +127,7 @@ button {
       "MORF" 15,
       "SHLN" 50;
     position: absolute;                                             
-    bottom: 5%;
+    bottom: 1%;
     text-align: center; 
     z-index: -1;
 }
