@@ -23,7 +23,7 @@
 </table></markdown-accessiblity-table>
 
 # Descrição do projeto: 
-Website criado em função de difundir conhecimento acerca de onde podem ser encontrados cursos superiores, em tecnologia, em algumas universidades da região e/ou pós graduações à distância. Como proposta do website, criaremos uma interface que se assemelha a mesma do Windows 98, trazendo um estilo retrô, mas com informações atualizadas. Desta maneira, estipularemos a funcionalidade de icones como botões que funcionem como se o usuário estivesse navegando em seu computador em 1998.
+Website criado na matéria de Programação Web Front-End, em função de difundir conhecimento acerca de onde podem ser encontrados cursos superiores, em tecnologia, em algumas universidades do Brasil. Como proposta do website, criaremos uma interface que se assemelha a mesma do Windows 98, trazendo um estilo retrô, mas com informações atualizadas. Desta maneira, estipularemos a funcionalidade de icones como botões que funcionem como se o usuário estivesse navegando em seu computador.
 
 # ODS: 
 4. Educação de qualidade 
