@@ -2,7 +2,10 @@
 # <p align="center">Desenvolvimento do Projeto 1 - Programação Web Front-End 2024/02 AS62F N1</p>
 
 <div align="center">
+ <figure>
   <img src="css/img/win98_icons/telaPC.png" alt="Imagem WebSite">
+  <figcaption>Layout da página inicial do website</figcaption>
+ </figure>
 </div>
 
 :space_invader:
