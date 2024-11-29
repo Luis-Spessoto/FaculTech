@@ -13,7 +13,7 @@ body {
     opacity: 0.85;
     max-width: 450px;
     height: auto;
-    padding-bottom: 260px;
+    padding-bottom: 250px;
 }
 
 
@@ -57,7 +57,7 @@ button {
 
 .btn1 { 
     position: absolute; 
-    bottom: 33%; 
+    bottom: 32%; 
     background-color: rgb(192, 192, 192);
     color: rgb(0, 0, 0);
 }
@@ -78,7 +78,7 @@ button {
 
 .btn2 {
     position: absolute; 
-    bottom: 24%;  
+    bottom: 23%;  
     background-color: rgb(192, 192, 192);
     color: rgb(0, 0, 0);
 }
@@ -98,7 +98,7 @@ button {
 }
 .btn3 {
     position: absolute; 
-    bottom: 15%;  
+    bottom: 14%;  
     background-color: rgb(192, 192, 192);
     color: rgb(0, 0, 0);
 }
