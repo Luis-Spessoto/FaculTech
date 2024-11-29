@@ -1,0 +1,177 @@
+
+
+
+/*estilo fonte*/
+.press-start-2p-regular {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*** PALERA DE CORES WINDOWS 98 ***/
+:root {
+    --cor1: #008080;
+    --cor2: #c0c0c0;
+    --cor3: 2px solid white;
+    --cor4: 2px solid #666;
+    --cor5: 2px solid #222;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: small;
+}
+
+
+/*****************************************************************************/
+/* desktop
+/*****************************************************************************/
+body {
+    background: var(--cor1);
+    height: 100vh;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+
+
+
+/*****************************************************************************/
+/* BARRA INICIO
+/*****************************************************************************/
+.inicio {
+    background: var(--cor2);
+    height: 38px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-top: 2px solid #efefef;
+    padding: 3px;
+    z-index: 9999;
+}
+
+.relogio {
+    border-top: var(--cor4);
+    border-left: var(--cor4);
+    border-right: var(--cor3);
+    border-bottom: var(--cor3);
+    float: right;
+    padding: 3px 3px 2px 9px;
+}
+
+
+.mini-icons {
+    padding: 0 3px 0 3px;
+    position: relative;
+    float: left;
+}
+
+.mini-icons img {
+    width: 17px;
+}
+
+.btn-inicio {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    line-height: 25px;
+    font-weight: bold;
+    padding: 0 7px 0 31px;
+    height: 29px;
+    background-color: var(--cor2);
+    border-top: var(--cor3);
+    border-left: var(--cor3);
+    border-right: var(--cor5);
+    border-bottom: var(--cor5);
+    background-image: url('img/win98_icons/windows.ico');
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    background-size: 22px;
+}
+
+
+/*****************************************************************************/
+
+
+/*Tornar icones como botoes clicaveis*/
+
+.cursos img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+#bt-cursos{
+    all: unset;
+}
+
+
+/* DIV DA PASTA COM OS CURSOS*/
+
+.folderCursos{
+    background-color: #c0c0c0;
+    width: 1000px;
+    height: 500px;
+    border: 8px solid #666;
+    outline: black solid;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: auto;
+    overflow-y: scroll;
+}
+
+.topfolder{
+    background-color: #222;
+    text-align: right;
+}
+#retornar{
+    background-color: #222;
+    size: 50%;
+}
+
+
+.ilUTF li{
+    list-style: none; 
+    position: relative;
+    padding-left: 50px; 
+    padding-top: 20px;
+}
+
+.ilUTF li::before {
+    content: ''; 
+    position: absolute;
+    left: 0; 
+    transform: translateY(-50%);    
+    width: 30px; 
+    height: 30px;
+    background-size: cover; /* Garante que a imagem ocupe todo o espaço */
+}
+.ilUTF li.item1::before{
+    margin-top: 10px;
+    background-image: url('img/win98_icons/write_wordpad.ico'); 
+}
+.link1{
+    padding-top: 45px;
+
+}
+
+.ilUTF li.link1::before{
+    background-image: url('img/win98_icons/search_file.ico'); 
+}   
+
+.imgUTFCP{
+    width: 70%;
+
+    border: black;
+    border-style: solid;
+    border-radius: 10px;
+}
+
