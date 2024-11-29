@@ -21,7 +21,7 @@ body {
     font-family: "Honk", system-ui;
     font-optical-sizing: auto;
     font-weight: 400;
-    font-size: 90px;
+    font-size: 80px;
     font-style: italic;
     font-variation-settings:
       "MORF" 15,
@@ -121,7 +121,7 @@ button {
     font-family: "Honk", system-ui;
     font-optical-sizing: auto;
     font-weight: 400;
-    font-size: 35px;
+    font-size: 30px;
     font-style: italic;
     font-variation-settings:
       "MORF" 15,
