@@ -4,7 +4,7 @@
 <div align="center">
  <figure>
   <img src="css/img/win98_icons/telaPC.png" alt="Imagem WebSite">
-  <figcaption>Layout da página inicial do website</figcaption>
+  <figcaption>Layout 1.0 da página inicial do website</figcaption>
  </figure>
 </div>
 
