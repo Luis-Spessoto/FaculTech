@@ -36,7 +36,7 @@ Website criado na matéria de Programação Web Front-End, em função de difund
  Já os arquivos CSS, estão dentro da pasta CSS e são divididos em: cadLogin, que é o estilo da página de direcionamento para cadastro e login, o style, que é o estilo da página principal (index), o styleCursos, que é o estilo da pasta onde estão os cursos da UTFPR (cursosUTF), e por fim o  styleCursosGeral, que é responsável pelo estilo de todas as outras páginas realizadas. 
  Ademais, tempos uma pasta chamada "img/win98_icons" que é onde estão as imagens dos ícones utilizados, as imagens do perfil de cada um, o logo da FaculTech e a imagem do Campus da UTFPR utilizada na pasta dos cursos da UTF
 
-#Link do website:
+# Link do website:
 
 https://github.com/Luis-Spessoto/FaculTech
 
