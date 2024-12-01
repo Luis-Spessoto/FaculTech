@@ -38,5 +38,4 @@ Website criado na matéria de Programação Web Front-End, em função de difund
 
 # Link do website:
 
-https://github.com/Luis-Spessoto/FaculTech
-
+https://luis-spessoto.github.io/FaculTech/
