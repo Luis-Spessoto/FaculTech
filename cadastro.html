@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styleCursosGeral.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>Cadastro</title>
+
+</head>
+
+<body >
+    <div class="taskbar">
+        <div id="desktop" class="press-start-2p-regular">
+        <div class="inicio">
+            <a class="btn-inicio" href="telaPC.html" alt="Aperte para começar" title="Aperte para começar">Inicio</a>
+            <div class="relogio">
+                <span id="relogio"></span>
+                <div class="mini-icons">
+                    <img src="css/img/win98_icons/network_normal_two_pcs.ico" alt="internet" title="internet">
+                </div>
+                <div class="mini-icons">
+                    <img src="css/img/win98_icons/loudspeaker_rays.ico" alt="Volume" title="Volume">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="login-container">
+        <h2>Cadastro de Usuário</h2>
+        <form action="login.html" method="GET">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required><br>
+
+            <label for="idade">Idade</label>
+            <input type="number" id="idade" name="idade" placeholder="Digite sua idade"><br><br>
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required><br>
+
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" name="senha" placeholder="Crie uma senha" required><br>
+
+            <label for="confirmaSenha">Confirmar Senha</label>
+            <input type="password" id="confirmaSenha" name="confirmaSenha" placeholder="Confirme sua senha" required>
+            
+            <p><a href="login.html"><input type="submit" value="Cadastrar"></a></p>
+
+        </form>
+        <div class="footer">
+            <p>Já tem uma conta? <a href="login.html">Faça login</a></p>
+        </div>
+    </div>
+</body>
+
+</html>
