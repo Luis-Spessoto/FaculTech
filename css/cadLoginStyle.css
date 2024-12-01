@@ -14,8 +14,7 @@ body {
     max-width: 380px;
     height: auto;
     padding-bottom: 250px;
-    position: relative; 
-    z-index: 1;
+    bottom: 60%; 
 }
 
 
