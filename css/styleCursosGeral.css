@@ -142,7 +142,7 @@ body {
     overflow: auto;
     overflow-y: scroll;
     align-items: center;
-    position: flex;
+    
 }
 .folderDEVS{
     background-color: #c0c0c0;
@@ -153,8 +153,7 @@ body {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     overflow: auto;
     overflow-y: scroll;
-    align-items: center;  
-    justify-content: space-between;  
+    align-items: center;    
 }
 
 .UTF{
@@ -171,6 +170,9 @@ body {
     background-color: #222;
     size: 50%;
 }
+
+
+/*arquivo cursos em geral*/
 
 .cursosGeral{
     display: flex;
@@ -197,10 +199,14 @@ body {
     margin: 10px 0; 
 }
 
+/*ARQUIVO TEMPORARIO*/
+
 .soonDiv{
     padding-left: 25px;
     padding-top: 12px;
 }
+
+/*ARQUIVO DEVS*/
 
 .devlist{
     list-style: none;
@@ -208,4 +214,62 @@ body {
 
 
 
+/* Estilo do container CADASTRO*/
+.login-container {
+    background-color: #c0c0c0;
+    border: 4px solid #000000;
+    max-width: 100%;
+    width: 500px;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 2px 2px 5px #888888;
+}
 
+    /* Título */
+h2 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+    /* Estilo dos campos */
+label {
+    font-size: 15px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    font-size: 12px;
+    background-color: #FFFFFF;
+}
+
+    /* Botão de envio */
+input[type="submit"] {
+    width: 100%;
+    padding: 5px;
+    font-size: 15px;
+    background-color: #666;
+    color: #FFFFFF;
+    border: 1px solid #000000;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0000A0;
+}
+
+    /* Rodapé */
+.footer {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #000080;
+}
