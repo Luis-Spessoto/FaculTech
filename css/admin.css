@@ -1,0 +1,175 @@
+
+
+
+/*estilo fonte*/
+.press-start-2p-regular {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lacquer-regular {
+    font-family: "Lacquer", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+/*** PALERA DE CORES WINDOWS 98 ***/
+:root {
+    --cor1: #008080;
+    --cor2: #c0c0c0;
+    --cor3: 2px solid white;
+    --cor4: 2px solid #666;
+    --cor5: 2px solid #222;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: small;
+}
+
+
+/*****************************************************************************/
+/* desktop
+/*****************************************************************************/
+body {
+    background: black;
+    height: 100vh;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+
+
+
+/*****************************************************************************/
+/* BARRA INICIO
+/*****************************************************************************/
+.inicio {
+    background: var(--cor2);
+    height: 38px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-top: 2px solid #efefef;
+    padding: 3px;
+    z-index: 9999;
+}
+
+.relogio {
+    border-top: var(--cor4);
+    border-left: var(--cor4);
+    border-right: var(--cor3);
+    border-bottom: var(--cor3);
+    float: right;
+    padding: 3px 3px 2px 9px;
+}
+
+
+.mini-icons {
+    padding: 0 3px 0 3px;
+    position: relative;
+    float: left;
+}
+
+.mini-icons img {
+    width: 17px;
+}
+
+.btn-inicio {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    line-height: 25px;
+    font-weight: bold;
+    padding: 0 7px 0 31px;
+    height: 29px;
+    background-color: var(--cor2);
+    border-top: var(--cor3);
+    border-left: var(--cor3);
+    border-right: var(--cor5);
+    border-bottom: var(--cor5);
+    background-image: url('img/win98_icons/windows.ico');
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    background-size: 22px;
+}
+
+
+/*****************************************************************************/
+
+
+/*titulo admin page*/
+.tit{
+    align-self: start;
+    font-size: larger;
+    background-color: #666;
+    padding: 12px;
+    border: 2px solid black;
+    border-radius: 5px;
+    position: fixed;
+    left: 2;
+    width: 95%;
+}
+.titEscrita{
+    text-align: center;
+    color: white;  
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.esquerda{
+    /*color: rgb(17, 218, 17);*/
+    color: white;
+    position: fixed; 
+    top: 20%; 
+    left: 7%;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%; 
+    height: 20px;
+    padding: 12px; 
+    font-size: 16px; 
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#cadastrar{
+    padding: 7px;
+}
+#limparCampos{
+    padding: 7px;
+}
+#limparLista{
+    padding: 7px;
+}
+
+.direita{
+    color: rgb(17, 218, 17);
+    position: fixed; 
+    top: 16%; 
+    left: 40%;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    width: 58%;
+    height: 70%;
+}
+
+.titList{
+    text-align: center;
+}
+
+.delete-button{
+    background-color: black;
+}
