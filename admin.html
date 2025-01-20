@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/admin.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>Admin</title>
+</head>
+
+<body class="press-start-2p-regular">
+    <div class="taskbar">
+        <div id="desktop" class="press-start-2p-regular">
+            <div class="inicio">
+                <a class="btn-inicio" href="index.html" alt="Aperte para começar" title="Aperte para começar">Inicio</a>
+                <div class="relogio">
+                    <span id="relogio"></span>
+                    <div class="mini-icons">
+                        <img src="css/img/win98_icons/network_normal_two_pcs.ico" alt="internet" title="internet">
+                    </div>
+                    <div class="mini-icons">
+                        <img src="css/img/win98_icons/loudspeaker_rays.ico" alt="Volume" title="Volume">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tit">
+        <p class="titEscrita">Admin Page</p>
+    </div>
+
+    <div class="esquerda">
+        <section>
+            <form id="form">
+                <label for="userName">Nome do Usuário:</label>
+                <br><br>
+                <input type="text" id="nome" name="nome" required>
+                <br><br><br>
+                <label for="userEmail">E-mail:</label>
+                <br><br>
+                <input type="email" id="email" name="email" required>
+                <br><br><br><br>
+                <button type="submit" id="cadastrar" class="press-start-2p-regular">Cadastrar Usuário</button>
+                <button type="button" id="limparCampos" class="press-start-2p-regular">Limpar Campos</button>
+                <br><br><br>
+                <button id="limparLista" class="press-start-2p-regular" onclick="deletarTODOmundo()">Excluir todos os usuários</button>
+            </form>
+        </section>
+    </div>
+
+    <div class="direita">
+        <section>
+            <p class="titList">Usuários Cadastrados</p>
+            <input type="text" id="procura" placeholder="Para pesquisar usuários apenas digite o que procura...">
+            <ul id="list"></ul>
+        </section>
+    </div>
+
+
+    <script>
+        var lista = [];
+        var userCount = 1;
+        var listUsuariosHtml = document.getElementById('list');
+        var form = document.getElementById('form');
+        var limparCamposBt = document.getElementById('limparCampos');
+        var procura = document.getElementById('procura');
+
+        limparCamposBt.addEventListener('click', () => {
+            form.reset();
+        });
+
+        function recuperarUsuarios() {
+            var listaPronta = JSON.parse(localStorage.getItem('lista'));
+            lista = listaPronta || [];
+        }
+
+        function cadastrarUsuario(name, email) {
+            var novoCadastro = { id: userCount++, name: name, email: email, data: new Date().toLocaleString('pt-BR') };
+            lista.push(novoCadastro);
+            localStorage.setItem('lista', JSON.stringify(lista));
+            carregarUsuarios();
+        }
+
+        function carregarUsuarios(usersFiltradosBusca = lista) {
+            var usarioLista = document.getElementById('list');
+            usarioLista.innerHTML = '';
+
+            usersFiltradosBusca.forEach(function (user) {
+                var listItem = document.createElement('li');
+                listItem.innerHTML = '<span class="user-name">' + user.name + '</span> - ' + user.email + ' - Cadastrado em: ' + user.data +
+                    ' <button id="delete-button" class="press-start-2p-regular" onclick="deletarUsuario(' + user.id + ')">X</button>';
+                usarioLista.appendChild(listItem);
+            });
+        }
+
+        function deletarUsuario(userId) {
+            lista = lista.filter(function (user) {
+                return user.id !== userId; 
+            });
+            localStorage.setItem('lista', JSON.stringify(lista)); 
+            recuperarUsuarios();
+            carregarUsuarios();
+        }
+
+        function deletarTODOmundo(){
+            if (confirm('Deseja realmente excluir todos os usuários cadastrados?')) {
+                localStorage.removeItem('lista');
+                lista = [];
+                carregarUsuarios();
+            }
+        }
+
+        procura.addEventListener('input', () => {
+            var procurar = procura.value.toLowerCase();
+            var usersFiltradosBusca = lista.filter(function (user) {
+                return user.name.toLowerCase().includes(procurar) ||
+                    user.email.toLowerCase().includes(procurar) ||
+                    user.data.toLowerCase().includes(procurar);
+            });
+            carregarUsuarios(usersFiltradosBusca);
+        });
+
+        recuperarUsuarios();
+        carregarUsuarios();
+
+        document.getElementById('form').addEventListener('submit', function (event) {
+            event.preventDefault();
+            var nameInput = document.getElementById('nome');
+            var emailInput = document.getElementById('email');
+            cadastrarUsuario(nameInput.value, emailInput.value);
+            nameInput.value = '';
+            emailInput.value = '';
+        });
+
+    </script>
+</body>
+
+</html>
