@@ -1,5 +1,5 @@
  # <h1 align="center"> Projeto - Website 1.0 </h1>
-# <p align="center">Desenvolvimento do Projeto 1 - Programação Web Front-End 2024/02 AS62F N1</p>
+# <p align="center">Desenvolvimento do Projeto para conclusão do curso - Programação Web Front-End 2024/02 AS62F N1</p>
 
 <div align="center">
  <figure>
