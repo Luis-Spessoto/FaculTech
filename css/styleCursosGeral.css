@@ -183,6 +183,11 @@ body {
     padding-top: 25px
 }
 
+.MBAlist{
+    display: flex;
+    align-items: center;            
+    margin: 10px 0; 
+}
 
 .UTFlist{
     display: flex;
